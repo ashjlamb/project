@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Colourful Pages</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="flex-one"></div>
+            <div class="flex-two"></div>
+            <div class="flex-three"></div>
+        </div>
+    </body>
+    <script>
+        container = document.querySelector(".flex-container")
+        container.style.background = "purple";
+        container.style.border = "4px solid pink"; 
+      
+        one = document.querySelector('.flex-one');
+        one.style.background = 'blue';
+        one.style.border = '6px solid green';
+        one.style.borderRadius = '20px';
+
+        two = document.querySelector('.flex-two');
+        two.style.background = 'yellow';
+        two.style.border = '6px solid orange';
+        two.style.borderRadius = '20px';
+
+        three = document.querySelector('.flex-three');
+        three.style.background = 'pink';
+        three.style.border = '6px solid black';
+        three.style.borderRadius = '20px';
+    </script>
+</html>
